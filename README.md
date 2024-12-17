@@ -1,0 +1,1 @@
+This example demonstrates a common error in VBScript stemming from its dynamic typing.  The `f` function attempts to compare numbers, but if input is provided as strings, the comparison may be lexicographical (string-based) rather than numerical. This can lead to inaccurate results and unexpected behavior. The solution file provides a corrected version.
